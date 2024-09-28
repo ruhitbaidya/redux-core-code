@@ -22,6 +22,7 @@ const Posts = () => {
         posts.map((item)=> <div>
             <h2>{item.title}</h2>
             <p>{item.body}</p>
+            <button>Read More</button>
         </div>)
       }
     </div>
